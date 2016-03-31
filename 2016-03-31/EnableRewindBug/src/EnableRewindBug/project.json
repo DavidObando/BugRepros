@@ -1,0 +1,25 @@
+{
+    "version": "1.0.0-*",
+    "compilationOptions": {
+        "emitEntryPoint": true
+    },
+    "dependencies": {
+        "Microsoft.AspNetCore.Mvc": "1.0.0-*",
+        "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-*",
+        "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0-*",
+        "NETStandard.Library": "1.5.0-*",
+        "System.Net.Http": "4.0.1-*",
+        "System.Console": "4.0.0-*"
+    },
+    "commands": {
+        "web": "EnableRewindBug"
+    },
+    "frameworks": {
+        "netstandardapp1.5": {
+            "imports": [
+                "dnxcore50",
+                "portable-net451+win8"
+            ]
+        }
+    }
+}
