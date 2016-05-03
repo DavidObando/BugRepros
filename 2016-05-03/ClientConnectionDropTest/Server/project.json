@@ -20,6 +20,9 @@
       "System.GC.Server": true
     }
   },
+  "content": [
+    "wwwroot"
+  ],
   "frameworks": {
     "netcoreapp1.0": {
       "imports": "dnxcore50"
