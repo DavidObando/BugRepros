@@ -50,3 +50,4 @@ bin
 obj
 .user
 .vs
+.vscode
