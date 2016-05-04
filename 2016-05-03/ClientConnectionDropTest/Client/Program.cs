@@ -103,8 +103,10 @@ namespace Client
             {
                 try
                 {
+                    Console.WriteLine($"Attempting to connect to {_serverUri}");
                     var result = client.GetAsync(_serverUri).Result;
                     result.EnsureSuccessStatusCode();
+                    Console.WriteLine($"Response status code: {result.StatusCode}");
                 }
                 catch
                 {
